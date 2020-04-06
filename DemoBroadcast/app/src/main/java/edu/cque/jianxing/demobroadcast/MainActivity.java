@@ -1,51 +1,41 @@
 package edu.cque.jianxing.demobroadcast;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.BroadcastReceiver;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
-import android.content.IntentFilter;
-import android.net.ConnectivityManager;
-import android.net.Network;
-import android.net.NetworkInfo;
 import android.os.Bundle;
-import android.widget.Toast;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.KeyEventDispatcher;
 
 public class MainActivity extends AppCompatActivity {
 
-    private NetworkChangeReceiver receiver;  //声明成员变量来持有接收器对象
+    private Button btnSend;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        IntentFilter intentFilter = new IntentFilter();
-        intentFilter.addAction("android.net.conn.CONNECTIVITY_CHANGE");
-        receiver = new NetworkChangeReceiver();
-        registerReceiver(receiver, intentFilter); //注册接收器，
-    }
+        btnSend = findViewById(R.id.btnSend);
+        btnSend.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent("edu.cque.jianxing.demobroadcast.MY_BROADCAST");
 
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        unregisterReceiver(receiver); //必须在activity结束时取消注册 BroadcastReceiver
-    }
+                // 高版本android 要接收自己的广播必须设置 component, 第一个参数是包名，第二个参数是接收器类
+                // 如果 receiver 在其它 app 中，不能设置 component属性
+                //intent.setComponent(new ComponentName("edu.cque.jianxing.demobroadcast", "edu.cque.jianxing.demobroadcast.MyReceiver"));
 
-    class NetworkChangeReceiver extends BroadcastReceiver{
-        @Override
-        public void onReceive(Context context, Intent intent) {
-
-            ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-            NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
-
-            if (networkInfo != null && networkInfo.isAvailable()) {
-                Toast.makeText(context, "network is up", Toast.LENGTH_LONG).show();
-            }else{
-                Toast.makeText(context, "network is down", Toast.LENGTH_LONG).show();
+                sendBroadcast(intent, "edu.cque.jianxing.demobroadcast.permission.MY_BROADCAST");
+                Log.d("DemoBroadcast", "MY_BROADCAST has sended");
             }
+        });
 
-        }
     }
+
+
 }
