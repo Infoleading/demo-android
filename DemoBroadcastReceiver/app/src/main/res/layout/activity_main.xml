@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="This app demonstrate BroadCast receiver.  \n\n 1.Dynamic receiver. To shutdown the network and focus on the toast message which is according to the CONNECTIVITY_CHANGE broadcast \n\n 2. Static receiver. to restart System and this app will run automatically according to BOOT_COMPLETED broadcast. \n\n3. To receive broadcast that sended by DemoBroadcast app. "
+        android:text="This app demonstrate BroadCast receiver.  \n\n 1.Dynamic receiver. To shutdown the network and focus on the toast message which is according to the CONNECTIVITY_CHANGE broadcast \n\n 2. Static receiver. to restart System and this app will run automatically according to BOOT_COMPLETED broadcast. \n\n 3. Regist receiver statically to receive customer broadcast MY_BROADCAST that sended by DemoBroadcast app. It is forbiden upon android 8.0\n\n 4. Registe receiver dynamically to receiver customer broadcast MY_BROADCAST that sended by DemoBroadcast APP."
         android:textSize="20sp"
         android:lines="30"
         app:layout_constraintTop_toTopOf="parent"
