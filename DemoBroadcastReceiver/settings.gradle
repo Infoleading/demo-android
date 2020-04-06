@@ -1,0 +1,2 @@
+rootProject.name='DemoBroadcastReceiver'
+include ':app'
