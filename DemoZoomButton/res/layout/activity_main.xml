@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.cque.jianxing.demozoombutton.MainActivity" >
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="@string/hello_world" />
+    
+    <LinearLayout
+        android:id="@+id/zoomBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp" >
+
+        <ZoomButton
+            android:id="@+id/zb_down"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/zoom_down_m" />
+        <ZoomButton
+            android:id="@+id/zb_up"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/zoom_up_m" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/imageBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp" >
+
+        <ImageButton
+            android:id="@+id/ib_down"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/zoom_down_m" />
+        <ImageButton
+            android:id="@+id/ib_up"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/zoom_up_m" />
+        
+    </LinearLayout>   
+    
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/zoomBtn"
+        android:layout_alignParentLeft="true"
+        android:text="ZoomButton" />
+    
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/imageBtn"
+        android:layout_alignParentRight="true"
+        android:text="ImageButton" />  
+        
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/imageBtn"
+        android:layout_centerHorizontal="true"
+        android:text="ZoomSpeed" />      
+        
+    <EditText 
+        android:id="@+id/logs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv2"
+        android:layout_centerHorizontal="true"
+        android:lines="5"
+        android:maxLines="5"/>
+    
+    <NumberPicker
+        android:id="@+id/speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
+    
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/logs"
+        android:text="事件响应日志：" />      
+</RelativeLayout>

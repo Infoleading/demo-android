@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context="edu.cque.jianxing.demolistview.ShowActivity" >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:textSize="30sp" />
+    
+     <ImageView 
+        android:id="@+id/figure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:scaleType="centerInside"/>
+    
+    <TextView
+        android:id="@+id/birthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/figure"
+        android:textSize="25sp" />        
+        
+    <TextView
+        android:id="@+id/nationality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/birthday"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:id="@+id/deed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nationality"
+        android:textSize="25sp" />
+ 
+          
+
+</RelativeLayout>

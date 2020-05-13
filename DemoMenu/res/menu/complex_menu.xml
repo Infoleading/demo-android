@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/com_item1"
+        android:title="菜单项1" />
+    <item
+        android:id="@+id/com_item2"
+        android:title="菜单项2 >>">
+        <menu>
+            <item
+                android:id="@+id/com_item21"
+                android:title="子菜单项21"/>
+            <item
+                android:id="@+id/com_item22"
+                android:title="子菜单项22"/>
+            <item
+                android:id="@+id/com_item23"
+                android:title="子菜单项23 >>" >
+                
+                <menu>
+                    
+		            <item
+		                android:id="@+id/com_item231"
+		                android:title="子菜单项231" />          
+		                
+		            <item
+		                android:id="@+id/com_item232"
+		                android:title="子菜单项232" />   
+		                
+		            <item
+		                android:id="@+id/com_item233"
+		                android:title="子菜单项233" />       		                		                
+                    
+                </menu>
+                
+            </item>
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="none" >
+        <item
+            android:id="@+id/com_item3"
+            android:title="菜单项3"/>
+        <item
+            android:id="@+id/com_item4"
+            android:title="菜单项4"/>
+    </group>
+    
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/com_item5"
+            android:title="菜单项5"/>
+        <item
+            android:id="@+id/com_item6"
+            android:title="菜单项6"/>
+    </group>
+    
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/com_item7"
+            android:title="菜单项7"/>
+        <item
+            android:id="@+id/com_item8"
+            android:title="菜单项8"/>        
+    </group>
+
+</menu>

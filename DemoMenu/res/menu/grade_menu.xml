@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.cque.jianxing.demomenu.ContextMenuActivity" >
+    
+    <item
+        android:id="@+id/freshman"
+        android:title="大学一年级学生"/>    
+
+    <item
+        android:id="@+id/sophomore"
+        android:title="大学二年级学生"/>
+    
+    <item
+        android:id="@+id/junior"
+        android:title="大学三年级学生"/>   
+        
+    <item
+        android:id="@+id/senior"
+        android:title="大学四年级学生"/>     
+
+</menu>

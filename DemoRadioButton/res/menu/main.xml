@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.cque.jianxing.demoradiobutton.MainActivity" >
+
+    <item
+        android:id="@+id/item_demo1"
+        android:orderInCategory="100"
+        android:showAsAction="collapseActionView"
+        android:title="演示1"/>
+    
+    <item
+        android:id="@+id/item_demo2"
+        android:orderInCategory="100"
+        android:showAsAction="collapseActionView"
+        android:title="演示2"/>
+    
+    <item
+        android:id="@+id/item_demo3"
+        android:orderInCategory="100"
+        android:showAsAction="collapseActionView"
+        android:title="演示3"/>
+    
+    <item
+        android:id="@+id/item_demo4"
+        android:orderInCategory="100"
+        android:showAsAction="collapseActionView"
+        android:title="演示4"/>
+    
+    <item
+        android:id="@+id/item_demo5"
+        android:orderInCategory="100"
+        android:showAsAction="collapseActionView"
+        android:title="演示5"/>
+
+</menu>

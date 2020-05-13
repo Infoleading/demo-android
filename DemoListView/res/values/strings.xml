@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DemoListView</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="scientists">
+        <item>Alan Curtis Kay</item>
+        <item>Alan Turing</item>
+        <item>Andrew Chi-Chih Yao</item>
+        <item>Andrew S. Tanenbaum</item>
+        <item>Charles P. Thacker</item>
+        <item>Claude Elwood Shannon</item>
+        <item>Donald Knuth</item>
+        <item>Edgar F. Codd</item>
+        <item>Edsger Dijkstra</item>
+        <item>John Backus</item>
+        <item>John McCarthy</item>
+        <item>John von Neumann</item>
+        <item>Ken Thompson</item>
+        <item>Kenneth E. Iverson</item>
+        <item>Linus Torvalds</item>
+        <item>Marvin Minsky</item>
+        <item>Niklaus Wirth</item>
+        <item>Richard Stallman</item>
+        <item>Stephen A. Cook</item>
+        <item>Tim Berners-Lee</item>
+        <item>Ward Cunningham</item>
+    </string-array>
+
+    <string name="title_activity_fifth">FifthActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_show">ShowActivity</string>
+    <string name="title_activity_simple_adapter">SimpleAdapterActivity</string>
+    <string name="title_activity_base_adapter">BaseAdapterActivity</string>
+    <string name="title_activity_show_activity2">ShowActivity2</string>
+    <string name="title_activity_show_activity3">ShowActivity3</string>
+
+</resources>

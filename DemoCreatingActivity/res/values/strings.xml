@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">DemoCreatingActivity</string>
+    <string name="hello">这是手工创建的Activity</string>
+    <string name="myLabel">我的Activity</string>
+
+</resources>

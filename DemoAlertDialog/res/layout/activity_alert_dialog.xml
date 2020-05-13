@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical" >
+
+    <EditText 
+        android:id="@+id/returned"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="5" />
+    
+    <Button 
+        android:id="@+id/messageAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提示消息对话框演示" />
+    
+    <Button 
+        android:id="@+id/itemsAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简单列表项对话框演示" />    
+        
+    <Button 
+        android:id="@+id/singleAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单选列表项对话框演示" />    
+        
+    <Button 
+        android:id="@+id/MultiAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多选列表项对话框演示" />     
+        
+    <Button 
+        android:id="@+id/adapterAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义列表项对话框演示" />      
+        
+    <Button 
+        android:id="@+id/viewAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义视图对话框演示" />      
+
+</LinearLayout>

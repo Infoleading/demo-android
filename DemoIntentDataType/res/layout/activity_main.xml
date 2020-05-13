@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="edu.cque.jianxing.demointentdatatype.MainActivity" >
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onBtn1Click"
+        android:text="scheme" />
+    
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onBtn2Click"
+        android:text="scheme://host" />    
+        
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onBtn3Click"
+        android:text="scheme://host:port" />    
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onBtn4Click"
+        android:text="scheme://host:port/path" />      
+        
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onBtn5Click"
+        android:text="MIMEType" />         
+</LinearLayout>

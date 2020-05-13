@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.cque.jianxing.demomenu.ContextMenuActivity" >
+    
+    <item
+        android:id="@+id/course_zx"
+        android:title="哲学"/>    
+
+    <item
+        android:id="@+id/course_sx"
+        android:title="数学"/>
+    
+    <item
+        android:id="@+id/course_xx"
+        android:title="信息学"/>    
+
+</menu>

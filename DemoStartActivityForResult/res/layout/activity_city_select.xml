@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.cque.jianxing.demostartactivityforresult.CitySelectActivity" >
+
+    <Button
+        android:id="@+id/bt_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="重庆"
+        android:onClick="onBt01Click" />
+    
+    <Button
+        android:id="@+id/bt_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="宁波"
+        android:onClick="onBt02Click" />    
+        
+    <Button
+        android:id="@+id/bt_03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="深圳"
+        android:onClick="onBt03Click" />    
+
+</LinearLayout>

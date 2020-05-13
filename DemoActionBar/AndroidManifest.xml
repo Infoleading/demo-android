@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.cque.jianxing.demoactionbar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="activity标题" >
+            
+        </activity>
+        <activity
+            android:name=".TabNaviActivity"
+            android:label="@string/title_activity_tab_navi" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> 
+        </activity>
+        <activity
+            android:name=".ListNaviActivity"
+            android:label="@string/title_activity_list_navi" >
+           
+        </activity>
+    </application>
+
+</manifest>

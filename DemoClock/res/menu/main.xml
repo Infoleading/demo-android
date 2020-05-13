@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.cque.jianxing.democlock.MainActivity" >
+
+    <item
+        android:id="@+id/activity_main"
+        android:orderInCategory="100"
+        android:showAsAction="collapseActionView"
+        android:title="组件展示"/>
+    
+    <item
+        android:id="@+id/activity_second"
+        android:orderInCategory="100"
+        android:showAsAction="collapseActionView"
+        android:title="案例演示"/>
+
+</menu>

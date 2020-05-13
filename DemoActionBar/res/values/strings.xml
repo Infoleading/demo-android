@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DemoActionBar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tab_navi">TabNaviActivity</string>
+    <string name="cake_intro">牛奶、奶油和黄油都是生活中的日常食品，也都是来源于牛乳的食品，可是很多人并不清楚它们之间的关系，它们在营养上有什么区别。全脂鲜奶是奶油和黄油的原料来源。天然牛奶含有百分之3-4的脂肪，含水百分之87左右。这些脂肪就是“奶里面的油”。(收起)牛奶、奶油和黄油都是生活中的日常食品，也都是来源于牛乳的食品，可是很多人并不清楚它们之间的关系，它们在营养上有什么区别。全脂鲜奶是奶油和黄油的原料来源。天然牛奶含有百分之3-4的脂肪，含水百分之87左右。这些脂肪就是“奶里面的油”。 </string>
+    <string name="cake_step1">1.牛奶加入油拌匀</string>
+    <string name="cake_step2">2.加入蛋黄拌匀，加入10克的糖拌匀，另蛋清打在无水无油器皿中备用。</string>
+    <string name="cake_step3">3.筛入低粉拌匀。</string>
+    <string name="cake_step4">4.这是拌匀好的面糊。</string>
+    <string name="title_activity_list_navi">ListNaviActivity</string>
+
+</resources>

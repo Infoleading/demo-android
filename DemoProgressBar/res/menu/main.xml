@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.cque.jianxing.demoprogressbar.MainActivity" >
+
+    <item
+        android:id="@+id/activity_1"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="演示1"/>
+    
+    <item
+        android:id="@+id/activity_2"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="演示2"/>   
+        
+    <item
+        android:id="@+id/activity_3"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="演示3"/>      
+        
+    <item
+        android:id="@+id/activity_4"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="演示4"/>       
+
+</menu>

@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.cque.jianxing.demolistview.FirstActivity" >
+
+    <item
+        android:id="@+id/activity1"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="ArrayAdapter加载本地数组"/>
+    <item
+        android:id="@+id/activity2"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="继承ArrayAdapter"/>
+    <item
+        android:id="@+id/activity3"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="在布局中加载数组资源生成列表项"/>
+    <item
+        android:id="@+id/activity4"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="ArrayAdapter加载资源数组"/>
+    <item
+        android:id="@+id/activity5"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="ArrayAdapter使用自定义布局"/>
+    <item
+        android:id="@+id/activity6"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="演示SimpleAdapter"/>
+    <item
+        android:id="@+id/activity7"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="演示BaseAdapter"/>    
+
+</menu>

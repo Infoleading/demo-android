@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical" >
+    
+    <EditText 
+        android:id="@+id/returned"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="5" />    
+
+    <Button
+        android:id="@+id/progressDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示进度条对话框" />
+    
+    <Button
+        android:id="@+id/datePickerDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="日期选择对话框" />    
+        
+    <Button
+        android:id="@+id/timePickerDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="时间选择对话框" />       
+
+</LinearLayout>

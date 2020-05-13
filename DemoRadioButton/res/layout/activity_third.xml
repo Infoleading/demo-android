@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RadioGroup
+        android:id="@+id/profession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="专业："/>
+        
+        <RadioButton 
+            android:id="@+id/profession_computer"
+            android:text="计算机"/>
+        
+        <RadioButton 
+            android:id="@+id/profession_math"
+            android:text="生物"/>
+        
+        <RadioButton 
+            android:id="@+id/profession_english"
+            android:text="英语"/>
+        
+    </RadioGroup>
+    
+    <EditText 
+        android:id="@+id/logBorad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="7"
+        android:maxLines="7" />
+    
+</LinearLayout>

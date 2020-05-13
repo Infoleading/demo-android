@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="#EEE"
+    tools:context="edu.cque.jianxing.demoimageview.SecondActivity" >
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="#fcc"
+        android:src="@drawable/vista2"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"
+        android:adjustViewBounds="true"
+        android:tint="#16F6"/>
+    
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="#fcc"
+        android:src="@drawable/vista2"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"
+        android:adjustViewBounds="true"
+        android:tint="#56F6" />    
+        
+    <TextView 
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img1"
+        android:gravity="center"
+        android:text="tint=#16F6                                 tint=#56F6"/>    
+        
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/img1"
+        android:layout_marginTop="20dp"
+        android:background="#fcc"
+        android:src="@drawable/vista2"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"
+        android:adjustViewBounds="true"
+        android:tint="#A6F6"/>
+    
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/img1"
+        android:layout_marginTop="20dp"
+        android:background="#fcc"
+        android:src="@drawable/vista2"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"
+        android:adjustViewBounds="true"
+        android:tint="#F6F6"/>     
+        
+    <TextView 
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img3"
+        android:gravity="center"
+        android:text="tint=#A6F6                                 tint=#F6F6"/>        
+
+
+</RelativeLayout>

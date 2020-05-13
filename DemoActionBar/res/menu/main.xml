@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.cque.jianxing.demoactionbar.MainActivity" >
+
+    <item
+        android:id="@+id/action_search"
+        android:showAsAction="always"
+        android:title="搜索"
+        android:actionViewClass="android.widget.AnalogClock"/>
+    
+    <item
+        android:id="@+id/action_time"
+        android:showAsAction="always"
+        android:title="时钟"
+        android:actionLayout="@layout/clock"/>    
+
+</menu>

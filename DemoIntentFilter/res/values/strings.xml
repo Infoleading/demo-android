@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DemoIntentFilter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_data_case">DataCaseActivity</string>
+    <string name="title_activity_data21">Data21Activity</string>
+    <string name="title_activity_data22">Data22Activity</string>
+    <string name="title_activity_data23">Data23Activity</string>
+    <string name="title_activity_data24">Data24Activity</string>
+    <string name="title_activity_data25">Data25Activity</string>
+
+</resources>

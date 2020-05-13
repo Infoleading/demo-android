@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"  >
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/selecSci"
+        android:spinnerMode="dropdown" />
+    
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/selecSci"
+        android:spinnerMode="dialog" />
+    
+    <ImageView 
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"/>
+        
+    <TextView
+        android:id="@+id/birth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />    
+        
+    <TextView
+        android:id="@+id/deed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />    
+        
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.cque.jianxing.demomenu.Associate1Activity" >
+
+    <item
+        android:id="@+id/associate1"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="页面1"/>
+    <item
+        android:id="@+id/associate2"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="页面2"/>
+    <item
+        android:id="@+id/associate3"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="页面3"/>
+
+</menu>

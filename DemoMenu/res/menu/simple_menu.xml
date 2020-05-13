@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/sim_item1"
+        android:title="菜单项1"
+        android:icon="@drawable/ico_info"
+        android:showAsAction="never"
+        android:orderInCategory="2"/>
+    <item 
+        android:id="@+id/sim_item2"
+        android:title="菜单项2"
+        android:icon="@drawable/ico_modify"
+        android:showAsAction="ifRoom"/>
+    <item 
+        android:id="@+id/sim_item3"
+        android:title="菜单项3"
+        android:icon="@drawable/ico_warning"
+        android:showAsAction="always"/>
+    <item 
+        android:id="@+id/sim_item4"
+        android:title="菜单项4"
+        android:icon="@drawable/ico_question"
+        android:showAsAction="withText"/>
+    <item 
+        android:id="@+id/sim_item5"
+        android:title="菜单项5"
+        android:icon="@drawable/ic_launcher"
+        android:showAsAction="collapseActionView"
+        android:orderInCategory="1"/>
+    <item 
+        android:id="@+id/sim_item6"
+        android:title="菜单项6"
+        android:enabled="false"/>
+    <item 
+        android:id="@+id/sim_item7"
+        android:title="菜单项7"
+        android:checkable="false"/>   
+    <item 
+        android:id="@+id/sim_item8"
+        android:title="菜单项8"
+        android:visible="false"/>  
+    
+</menu>

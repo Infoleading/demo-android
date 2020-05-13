@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DemoIntentDataType</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_data_one">DataOneActivity</string>
+    <string name="title_activity_data_two">DataTwoActivity</string>
+    <string name="title_activity_data_four">DataFourActivity</string>
+    <string name="title_activity_data_five">DataFiveActivity</string>
+    <string name="title_activity_data_three">DataThreeActivity</string>
+    <string name="title_activity_luncher">LuncherActivity</string>
+
+</resources>

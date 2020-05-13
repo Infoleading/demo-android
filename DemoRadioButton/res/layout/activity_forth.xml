@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RadioGroup
+        android:id="@+id/profession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="专业："/>
+        
+        <RadioButton 
+            android:id="@+id/profession_computer"
+            android:text="计算机"/>
+        
+        <RadioButton 
+            android:id="@+id/profession_math"
+            android:text="生物"/>
+        
+        <RadioButton 
+            android:id="@+id/profession_english"
+            android:text="英语"/>
+        
+    </RadioGroup>
+    
+    <RadioGroup
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性别："/>
+        
+        <RadioButton 
+            android:id="@+id/gender_female"
+            android:text="女"/>
+        
+        <RadioButton 
+            android:id="@+id/gender_male"
+            android:text="男"/>
+        
+    </RadioGroup>
+    
+    <RadioGroup
+        android:id="@+id/degree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学位："/>
+        
+        <RadioButton 
+            android:id="@+id/degree_bachelor"
+            android:text="学士"/>
+        
+        <RadioButton 
+            android:id="@+id/degree_marster"
+            android:text="硕士"/>
+        
+        <RadioButton 
+            android:id="@+id/degree_doctor"
+            android:text="博士"/>
+        
+    </RadioGroup>
+    
+    <EditText 
+        android:id="@+id/output1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="5"
+        android:maxLines="5"
+        android:hint="打印RadioButton事件" />
+    <EditText 
+        android:id="@+id/output2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="5"
+        android:maxLines="5"
+        android:hint="打印RadioGroup事件" />
+
+</LinearLayout>

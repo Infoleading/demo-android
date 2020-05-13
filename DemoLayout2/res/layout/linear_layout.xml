@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:measureWithLargestChild="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/Red"
+        android:padding="30dp"
+        android:text="这是TextView1"
+        android:textSize="50dp" />
+    
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@color/Blue"
+         android:text="这是TextView2"
+         android:textSize="50sp" />
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+         <CheckBox
+             android:id="@+id/checkbox3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/play" />
+
+         <CheckBox
+             android:id="@+id/checkbox2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/eat" />
+
+         <CheckBox
+             android:id="@+id/checkbox1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/sleep" />
+         
+         <CheckBox
+             android:id="@+id/checkbox4"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/selectall" />
+
+     </LinearLayout>
+
+</LinearLayout>

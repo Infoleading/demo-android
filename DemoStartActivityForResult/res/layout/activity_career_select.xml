@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.cque.jianxing.demostartactivityforresult.CitySelectActivity" >
+
+    <Button
+        android:id="@+id/bt_11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="公务员"
+        android:onClick="onBt11Click" />
+    
+    <Button
+        android:id="@+id/bt_12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="医生"
+        android:onClick="onBt12Click" />    
+        
+    <Button
+        android:id="@+id/bt_13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="教师"
+        android:onClick="onBt13Click" />    
+
+</LinearLayout>
